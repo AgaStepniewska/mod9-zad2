@@ -5,6 +5,6 @@ var allNames = maleNames.concat(femaleNames);
 console.log(allNames);
 var newName = 'Krzysiu';
 if(allNames.indexOf(newName) === -1) {
-	var x = allNames.push('Krzysiu');
+	var x = allNames.push(newName); // ;-) 
 }
 console.log(allNames);
